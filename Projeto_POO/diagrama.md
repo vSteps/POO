@@ -1,6 +1,6 @@
 ```mermaid
 ---
-title: Animal example
+title: Diagrama Projeto Sistema Escolar
 ---
 classDiagram
     note "From Duck till Zebra"
