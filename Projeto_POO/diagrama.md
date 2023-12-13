@@ -17,7 +17,7 @@ classDiagram
     class Aluno{
         - String matricula
         - String nome
-        - Double notas
+        - Notas notas
     }
     class Disciplina{
         - int codigo
