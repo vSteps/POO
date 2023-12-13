@@ -3,27 +3,36 @@
 title: Diagrama Projeto Sistema Escolar
 ---
 classDiagram
-    note "From Duck till Zebra"
-    Animal <|-- Duck
-    note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
-    Animal <|-- Fish
-    Animal <|-- Zebra
-    Animal : +int age
-    Animal : +String gender
-    Animal: +isMammal()
-    Animal: +mate()
-    class Duck{
-        +String beakColor
-        +swim()
-        +quack()
+    SistemaEscolar <|-- Aluno
+    SistemaEscolar <|-- Disciplina
+    SistemaEscolar <|-- Professor
+    SistemaEscolar : + cadastrarAluno
+    SistemaEscolar : + cadastrarProf
+    SistemaEscolar : + cadastrarDisc
+    SistemaEscolar : + atribuirDisc
+    SistemaEscolar : + removerAluno
+    SistemaEscolar:  + removerDisc
+    SistemaEscolar:  + registrarNota
+    SistemaEscolar:  + emitirBoletim
+    class Aluno{
+        - String matricula
+        - String nome
+        - Double notas
     }
-    class Fish{
-        -int sizeInFeet
-        -canEat()
+    class Disciplina{
+        - int codigo
+        - String nome
+        - String professor
+        - String Alunos
     }
-    class Zebra{
-        +bool is_wild
-        +run()
+    class Professor{
+        - String id
+        - String nome
+    }
+
+    class Notas{
+        + setNota
+        + getNota
     }
 
 ```
