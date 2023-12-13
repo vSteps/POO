@@ -1,4 +1,4 @@
-package Heranca;
+package Aulas_Heranca;
 
 public class Main {
 

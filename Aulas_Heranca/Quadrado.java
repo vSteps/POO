@@ -1,4 +1,4 @@
-package Heranca;
+package Aulas_Heranca;
 
 public class Quadrado extends Retangulo{
     public Quadrado(double lado){

@@ -1,4 +1,4 @@
-package Heranca;
+package Aulas_Heranca;
 
 public class FreteExpresso extends Frete{
     private double valorSegurado;
