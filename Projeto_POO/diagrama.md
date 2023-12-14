@@ -6,7 +6,9 @@ classDiagram
     SistemaEscolar <|-- Aluno
     SistemaEscolar <|-- Disciplina
     SistemaEscolar <|-- Professor
-    classSistemaEscolar{
+
+    
+    class SistemaEscolar{
          - alunos : List<Aluno>
          - disciplinas : List<Disciplina>
          - professores : List<Professor>
