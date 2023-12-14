@@ -6,6 +6,10 @@ classDiagram
     SistemaEscolar <|-- Aluno
     SistemaEscolar <|-- Disciplina
     SistemaEscolar <|-- Professor
+    Disciplina <|-- Professor
+    Disciplina <|-- Aluno
+    Disciplina <|-- Nota
+    Aluno <|-- Nota
 
 
     class SistemaEscolar{
