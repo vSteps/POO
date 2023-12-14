@@ -31,21 +31,21 @@ classDiagram
         - map : Map<Aluno, Nota>
         + getAlunos() : List<Aluno>
         + getNome() : String
-        + getProfessor() : Professor
-        + isPresent(aluno : Aluno) : boolean
-        + inserirAluno(aluno : Aluno; nota : Nota) : void
-        + removerAluno(aluno : Aluno; nota : Nota) : void
-        + getNotas(aluno : Aluno) : Nota
-        + getMedia(aluno : Aluno) : int
-        + inserirNotaFinal(aluno : Aluno; notaFinal : int)
-        + getMediaFinal(aluno : Aluno) : int
-        + aprovado(aluno : Aluno) : boolean
-        + aprovadoMediaFinal(aluno : Aluno) : boolean
+        + getProfessor()  Professor
+        + isPresent(aluno  Aluno)  boolean
+        + inserirAluno(aluno  Aluno; nota : Nota)  void
+        + removerAluno(aluno  Aluno; nota : Nota)  void
+        + getNotas(aluno  Aluno)  Nota
+        + getMedia(aluno  Aluno)  int
+        + inserirNotaFinal(aluno  Aluno; notaFinal : int)
+        + getMediaFinal(aluno : Aluno)  int
+        + aprovado(aluno : Aluno)  boolean
+        + aprovadoMediaFinal(aluno : Aluno)  boolean
     }
     class Professor{
-        # disciplinas : List<Disciplina>
-        - nome : String
-        + getNome : String
+        # disciplinas  List<Disciplina>
+        - nome  String
+        + getNome()  String
     }
 
     class Notas{
