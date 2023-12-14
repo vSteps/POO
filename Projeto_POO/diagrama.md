@@ -6,24 +6,26 @@ classDiagram
     SistemaEscolar <|-- Aluno
     SistemaEscolar <|-- Disciplina
     SistemaEscolar <|-- Professor
-    SistemaEscolar : - alunos : List<Aluno>
-    SistemaEscolar : - disciplinas : List<Disciplina>
-    SistemaEscolar : - professores : List<Professor>
-    SistemaEscolar : + cadastrarAluno(aluno : Aluno) void
-    SistemaEscolar : + removerAluno(aluno : Aluno) void
-    SistemaEscolar : + cadastrarDisciplina(disciplina : Disciplina) void
-    SistemaEscolar : + removerDisciplina(disciplina : Disciplina) void
-    SistemaEscolar : + cadastrarProf(professor : Professor) void
-    SistemaEscolar : + removerProf(professor : Professor) void
-    SistemaEscolar : + getAluno(matriculaAluno : String) Aluno
-    SistemaEscolar : + getDisciplinas(nomeDisciplina) Disciplina
-    SistemaEscolar : + inserirAlunoEmDisciplina(aluno : Aluno; disciplina : Disciplina) String
-    SistemaEscolar : + removerAlunoDaDisciplina(aluno : Aluno; disciplina : Disciplina) String
-    SistemaEscolar : + atribuirDisciplinaAoProfessor(professor : Professor; disciplina : Disciplina) String
-    SistemaEscolar : + removerDisciplinaDoProfessor(professor : Professor; disciplina : Disciplina) String
-    SistemaEscolar:  + listarAlunos()
-    SistemaEscolar:  + listarDisciplinas()
-    SistemaEscolar:  + getBoletim
+    classSistemaEscolar{
+         - alunos : List<Aluno>
+         - disciplinas : List<Disciplina>
+         - professores : List<Professor>
+         + cadastrarAluno(aluno : Aluno) void
+         + removerAluno(aluno : Aluno) void
+         + cadastrarDisciplina(disciplina : Disciplina) void
+         + removerDisciplina(disciplina : Disciplina) void
+         + cadastrarProf(professor : Professor) void
+         + removerProf(professor : Professor) void
+         + getAluno(matriculaAluno : String) Aluno
+         + getDisciplinas(nomeDisciplina) Disciplina
+         + inserirAlunoEmDisciplina(aluno : Aluno; disciplina : Disciplina) String
+         + removerAlunoDaDisciplina(aluno : Aluno; disciplina : Disciplina) String
+         + atribuirDisciplinaAoProfessor(professor : Professor; disciplina : Disciplina) String
+         + removerDisciplinaDoProfessor(professor : Professor; disciplina : Disciplina) String
+         + listarAlunos()
+         + listarDisciplinas()
+        + getBoletim
+    }
     class Aluno{
         # disciplinas : List<Disciplina>
         - matricula : String
