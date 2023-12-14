@@ -3,9 +3,21 @@ package Projeto_POO;
 import java.util.List;
 
 public class Professor {
-    private int id;
+    protected List<Disciplina> disciplinas;
     private String nome;
-    private String matricula;
-    private List<Disciplina> disciplinas;
+
+
+    public Professor(String nome){
+        this.nome = nome;
+    }
+
+
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+
+    public String getNome(){
+        return this.nome;
+    }
     
 }
