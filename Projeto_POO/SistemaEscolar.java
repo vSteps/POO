@@ -16,23 +16,6 @@ public class SistemaEscolar {
 
         }
 
-        public List<Aluno> getAlunos() {
-            return this.alunos;
-          }
-          
-          public void setAlunos(List<Aluno> alunos) {
-            this.alunos = alunos;
-          }
-          
-          public List<Disciplina> getDisciplinas() {
-            return this.disciplinas;
-          }
-          
-          public void setDisciplinas(List<Disciplina> disciplinas) {
-            this.disciplinas = disciplinas;
-          }
-          
-
     public void cadastrarAluno(Aluno aluno){
         alunos.add(aluno);
     }
