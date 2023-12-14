@@ -7,7 +7,7 @@ classDiagram
     SistemaEscolar <|-- Disciplina
     SistemaEscolar <|-- Professor
 
-    
+
     class SistemaEscolar{
          - alunos : List<Aluno>
          - disciplinas : List<Disciplina>
@@ -26,7 +26,7 @@ classDiagram
          + removerDisciplinaDoProfessor(professor : Professor; disciplina : Disciplina) String
          + listarAlunos()
          + listarDisciplinas()
-        + getBoletim
+         + getBoletim()
     }
     class Aluno{
         # disciplinas : List<Disciplina>
