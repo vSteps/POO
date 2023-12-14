@@ -66,7 +66,7 @@ classDiagram
         + getNome()  String
     }
 
-    class Notas{
+    class Nota{
         - provaUm : int
         - provaDois : int
         - provaFinal : int
