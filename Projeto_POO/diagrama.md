@@ -3,17 +3,9 @@
 title: Diagrama Projeto Sistema Escolar 
 ---
 classDiagram
-    SistemaEscolar --|> Aluno
-    SistemaEscolar --|> Disciplina
-    SistemaEscolar --|> Professor
-
     Disciplina <|-- Professor
-
     Disciplina <|-- Aluno
-
     Disciplina <|-- Notas
-
-    
     Aluno <|-- Notas
 
 
