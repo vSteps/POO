@@ -24,7 +24,7 @@ classDiagram
          + CadastrarAluno(aluno : Aluno) : void
          + getListadeAlunos() List<Aluno>
          + ListarAlunos() void
-         + AtribuirNotaAluno(id_aluno : int ; disciplina : int ; nota01 : int ; nota01 : int) : void
+         + AtribuirNotaAluno(id_aluno : int ; disciplina : int ; nota01 : int ; nota02 : int) : void
          + findProfessor(idprof : int) int
          + CadastrarProfessor(professor : Professor) : boolean
          + CadastrarProfessorDisciplina(idProfessor : int ; idDisciplina : int) : void
