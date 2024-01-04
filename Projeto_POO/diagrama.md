@@ -1,6 +1,6 @@
 ```mermaid
 ---
-title: Diagrama Projeto POO: Sistema Escolar 
+title: Diagrama Projeto Sistema Escolar 
 ---
 classDiagram
     SistemaEscolar --|> Aluno
@@ -8,8 +8,8 @@ classDiagram
     SistemaEscolar --|> Professor
     Disciplina <|-- Professor
     Disciplina <|-- Aluno
-    Disciplina <|-- Nota
-    Aluno <|-- Nota
+    Disciplina <|-- Notas
+    Aluno <|-- Notas
 
 
     class SistemaEscolar{
