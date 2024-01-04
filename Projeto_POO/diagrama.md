@@ -8,8 +8,8 @@ classDiagram
     SistemaEscolar --|> Professor
     Disciplina <|-- Professor
     Disciplina <|-- Aluno
-    Disciplina <|-- Notas
-    Aluno <|-- Notas
+    Disciplina <|-- Nota
+    Aluno <|-- Nota
 
 
     class SistemaEscolar{
