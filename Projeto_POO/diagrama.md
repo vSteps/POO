@@ -3,9 +3,9 @@
 title: Diagrama Projeto POO: Sistema Escolar 
 ---
 classDiagram
-    SistemaEscolar --|> Aluno
-    SistemaEscolar --|> Disciplina
-    SistemaEscolar --|> Professor
+    Aluno <|-- SistemaEscolar
+    Disciplina <|-- SistemaEscolar
+    Professor <|-- SistemaEscolar
     Disciplina <|-- Professor
     Disciplina <|-- Aluno
     Disciplina <|-- Notas
