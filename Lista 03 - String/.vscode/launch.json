@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "OBI_URI",
+            "request": "launch",
+            "mainClass": "OBI_URI",
+            "projectName": "Lista 03 - String_6869311e"
+        },
+        {
+            "type": "java",
+            "name": "caracteres",
+            "request": "launch",
+            "mainClass": "caracteres",
+            "projectName": "Lista 03 - String_6869311e"
+        },
+        {
+            "type": "java",
+            "name": "tuitando",
+            "request": "launch",
+            "mainClass": "tuitando",
+            "projectName": "Lista 03 - String_6869311e"
+        },
+        {
+            "type": "java",
+            "name": "LED",
+            "request": "launch",
+            "mainClass": "LED",
+            "projectName": "Lista 03 - String_6869311e"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "pomekon",
+            "request": "launch",
+            "mainClass": "pomekon",
+            "projectName": "Lista 03 - String_6869311e"
+        }
+    ]
+}
